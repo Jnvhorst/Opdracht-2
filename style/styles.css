@@ -1,0 +1,100 @@
+* {
+    font-family: 'open sans';
+    font-size: 1em;
+}
+
+.detailH1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.detail {
+    position: relative;
+    left: 3.5%;
+    box-sizing: border-box;
+    background-color: #27CE7B;
+    color: white;
+    display: inline-block;
+    width: 30%;
+    border-radius: 0.25em;
+    padding: 0.1em;
+    font-size: 1.1em;
+}
+
+.detailFooter {
+    text-align: center;
+    font-size: 0.8em;
+    color: grey;
+}
+
+.detailIntro {
+    font-style: italic;
+    position: relative;
+    left: 3.5%;
+    box-sizing: border-box;
+    background-color: #27CE7B;
+    color: white;
+    display: inline-block;
+    width: 30%;
+    border-radius: 0.25em;
+    padding: 0.1em;
+    font-size: 1.1em;
+}
+
+.overzichtspagina {
+    background-color: #F7F7F7;
+    display: flex;
+    width: 90%;
+    top: 5em;
+    position: relative;
+    left: 5%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    min-height: 3em;
+    top: 0;
+    left: 0;
+    background-color: #27CE7B;
+}
+
+.navHeader {
+    display: inline-block;
+}
+
+aside {
+    background-color: aqua;
+    width: 20%;
+    min-height: 100%;
+    display: inline-block;
+}
+
+.sorteren {
+    width: 80%;
+    background-color: red;
+    display: inline-block;
+    max-height: 3em;
+}
+
+.sorteren2 {
+    display: inline-block;
+    padding: 0 4.2em;
+}
+
+.zoekmachine {
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.navImg {
+    float: left;
+    margin-right: 4em;
+}
